@@ -1,0 +1,12 @@
+*.iml
+*.ipr
+*.iws
+*.ids
+*.log
+build/
+out/
+.gradle/
+.idea/
+*.log
+.DS_Store
+

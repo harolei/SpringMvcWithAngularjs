@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS SpringAngular;
+CREATE SCHEMA SpringAngular DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE SpringAngular;
+
+DROP TABLE IF EXISTS User;
+
+CREATE TABLE User (
+  Username varchar(255) DEFAULT NULL,
+  Password varchar(255) DEFAULT NULL,
+  id bigint(20) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
